@@ -24,16 +24,16 @@ int main(){
     cin>>a;
     cin>>b;
 	add = mysum(a,b);
-	cout<<"Addition is "<<add<<endl;
+	cout<<"Addition of "<<a<<" and "<<b <<" is "<<add<<endl;
 	
 	sub = mysub(a,b);
-	cout<<"Subtraction is "<<sub<<endl;
+	cout<<"Subtraction of "<<a<<" and "<<b <<" is "<<sub<<endl;
 	
 	prod = myprod(a,b);
-	cout<<"Product is "<<prod<<endl;
+	cout<<"Product of "<<a<<" and "<<b <<" is "<<prod<<endl;
 	
 	div = mydiv(a,b);
-	cout<<"Division is "<<div<<endl;
+	cout<<"Division of "<<a<<" and "<<b <<" is "<<div<<endl;
 	
 	cout<<"log of "<<a<<" is "<<log(a)<<endl;
 	cout<<"log of "<<b<<" is "<<log(b)<<endl;
